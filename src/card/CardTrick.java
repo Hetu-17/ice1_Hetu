@@ -29,7 +29,7 @@ public class CardTrick {
             Card c = new Card();
             c.setValue((int)(Math.random() * 13 + 1));
             c.setSuit(Card.SUITS[(int)(Math.random() * 4)]);
-            magicHand[i]=c;
+            magicHand[i]= c;
             System.out.println(c.getSuit() + ""+ c.getValue());
         }
         
@@ -53,7 +53,6 @@ public class CardTrick {
                 break;
             }
         }
-            
         //Then report the result here
         if (search){
                 System.out.println("Congratulations! Your card is in the magic hand!");
