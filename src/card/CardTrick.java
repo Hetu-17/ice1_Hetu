@@ -78,5 +78,5 @@ public class CardTrick {
          System.out.println("Sorry, Your lucky card 2 of Clubs was not found!");
          }
                  
-         }
+       }
 }
